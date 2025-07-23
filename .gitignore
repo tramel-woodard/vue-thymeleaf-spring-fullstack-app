@@ -1,0 +1,75 @@
+# ===================================
+# Global
+# ===================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+.idea/
+.vscode/
+*.iml
+
+# ===================================
+# Node / Vite (Frontend)
+# ===================================
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/.cache/
+/frontend/.output/
+
+# Logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# ===================================
+# Java / Spring Boot (Backend)
+# ===================================
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+**/logs/
+**/*.log
+**/hs_err_pid*
+
+# IntelliJ
+*.iws
+*.ipr
+*.idea/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# Maven
+.mvn/
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+
+# Gradle (if applicable)
+.gradle/
+build/
+
+# ===================================
+# OS/System Files
+# ===================================
+ehthumbs.db
+Icon?
+desktop.ini
+$RECYCLE.BIN/
+
+# ===================================
+# Misc
+# ===================================
+*.env
+*.local
+.env
+.env.*
